@@ -1,0 +1,18 @@
+.blockPadding {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    column-gap: 250px;
+}
+
+.dataPicker {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.button {
+    width: 250px;
+}
+.Wrapperbutton, .WrapperDataPicker {
+    margin: 25px;
+}
