@@ -1,57 +1,69 @@
-import React from 'react';
-// style 
-import './App.scss';
+import React from "react";
+// style
+import "./App.scss";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 // router
-import {  Routes, Route} from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 
 // components Nav
-import { Home } from './view/Home/Home';
-import  Add  from './view/Add/Add';
-import { All } from './view/All/All';
-import { OneBook } from './view/OneBook/OneBook';
+import { Home } from "./view/Home/Home";
+import Add from "./view/Add/Add";
+import { All } from "./view/All/All";
+import { OneBook } from "./view/OneBook/OneBook";
 
 // componenty składowe
 
-import { Nav } from './components/Nav/Nav';
+import { Nav } from "./components/Nav/Nav";
 
-// iterface 
-import { navElements, PathNav } from './HelperInterface/Navigation';
+// iterface
+import { navElements, PathNav } from "./HelperInterface/Navigation";
 
-// global Store 
+// global Store
 
-import { GlobalStore } from './Store/GlobalStore'
+import { GlobalStore } from "./Store/GlobalStore";
+const theme = createTheme({
+  typography: {
+    fontFamily: `"Space Mono", "monospace"`,
+    fontSize: 14,
+    fontWeightLight: 300,
+    fontWeightRegular: 400,
+    fontWeightMedium: 500,
+  },
+});
 
 const App = () => {
   const navigation: navElements[] = [
     {
       path: PathNav.HOME,
-      name: 'Home'
+      name: "Home",
     },
     {
       path: PathNav.ALL,
-      name: 'All .....'
+      name: "All .....",
     },
     {
       path: PathNav.ADD,
-      name: "Add..."
-    }
-  ]
+      name: "Add...",
+    },
+  ];
 
   return (
-    <GlobalStore>
-      <div className='app'>
-        <p>Tu mozna coś wrzucić </p>
-        <Nav navElements={navigation}></Nav>
-        <Routes>
-            <Route path='/all' element={ <All/>} />
-            <Route path='/add' element={<Add/>} />
-            <Route path='/' element={<Home/>} />
-            <Route path='/:book/:id' element={<OneBook/>}/>
-        </Routes>
-      </div>
-    </GlobalStore>
+    <ThemeProvider theme={theme}>
+      <GlobalStore>
+        <div className='app'>
+          <p>Tu mozna coś wrzucić </p>
+          <Nav navElements={navigation}></Nav>space
+          <Routes>
+            <Route path='/all' element={<All />} />
+            <Route path='/add' element={<Add />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/:book/:id' element={<OneBook />} />
+          </Routes>
+        </div>
+      </GlobalStore>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
