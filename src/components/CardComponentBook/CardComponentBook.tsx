@@ -101,7 +101,9 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
       )}
       <Card
         className={styles.bodyCardBook}
-        sx={{ backgroundColor: "rgb(188, 188, 188)" }}
+        sx={{
+          backgroundColor: "rgb(188, 188, 188)",
+        }}
       >
         <CardMedia
           className={styles[classCss]}
