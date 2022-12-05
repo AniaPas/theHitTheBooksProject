@@ -11,13 +11,11 @@ html {
   letter-spacing: 1.1px;
 }
 
-
-
 nav {
   position: sticky;
   top: 0;
   padding-top: 50px;
-  background-color: rgb(226, 224, 224);
+  background-color: rgba(61, 61, 61, 0.904);
   z-index: 100;
 }
 
@@ -35,16 +33,13 @@ nav {
 
   a {
     font-size: 22px;
-    color: #777;
+    color: rgb(234, 198, 39);
     text-decoration: none;
     transition: all 0.45s;
   }
 
-
-
   &:hover a {
-    color: #d94f5c;
+    color: #ffffff;
+    font-size: 26px;
   }
-
-
 }
