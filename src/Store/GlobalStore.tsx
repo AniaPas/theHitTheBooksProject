@@ -2,17 +2,17 @@ import { AlertColor } from '@mui/material'
 import {useState, createContext, FC } from 'react'
 // import { GlobalStateInterface, AuthorInterface, BookInterface, GlobalStoreInterface } from './HelperInterFace'
 
-interface BookInterface {
-  id: number,
+export interface BookInterface {
+  id?: number,
   title: string,
   author: string,
   desc: string,
-  years: number,
+  years?: number,
   rating: number[],
   url?: string
 }
 
-interface AuthorInterface {
+export interface AuthorInterface {
   author: string,
   books?: string[],
   nota: string

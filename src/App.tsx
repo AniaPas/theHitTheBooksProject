@@ -41,7 +41,7 @@ const App = () => {
   return (
     <GlobalStore>
       <div className='app'>
-
+        <p>Tu mozna coś wrzucić </p>
         <Nav navElements={navigation}></Nav>
         <Routes>
             <Route path='/all' element={ <All/>} />

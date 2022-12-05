@@ -62,10 +62,10 @@ export const All: FC = () => {
           nota={item.nota}
           collapse={true}
           imgScr={item.url}
+          rating= {item.rating}
 
         >
-          <Button size="small">dodaj ocenę</Button>
-          <Button onClick={() => showMore(item.id, item.title)} size="small">Pokaż szczegóły</Button>
+          <Button onClick={() => showMore(item.id!, item.title)} size="small">Pokaż szczegóły</Button>
         </CardComponentBook>
       </Grid>)
   })

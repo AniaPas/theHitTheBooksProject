@@ -1,16 +1,24 @@
-.px300 {
-    min-height: 300px;
-}
-
-.px500 {
-    min-height: 500px;
-}
-
 .px150 {
-    min-height: 150px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 20%;
 }
 
-.vh70 {
-    min-height: 70vh;
+.secondary {
+  margin: 25px;
 }
 
+.tooltipMain {
+  // color: red;
+}
+
+.bodyCardBook {
+  min-height: 700px;
+
+  // position: relative;
+}
+.cardActionBook {
+  // position: absolute;
+  // bottom: 0;
+}

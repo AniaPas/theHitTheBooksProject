@@ -8,7 +8,7 @@ import styles from './Add.module.scss';
 import uniqid from 'uniqid';
 import { addNewBook, getAuthors, addAuthor } from '../../services/books.service';
 import { useNavigate } from 'react-router-dom';
-import { GlobalState } from '../../Store/GlobalStore';
+import { BookInterface, GlobalState } from '../../Store/GlobalStore';
 import Modal from '@mui/material/Modal';
 import { debounce } from 'lodash';
 // import _ from 'lodash' // czasmi importują to w ten sposób używa siepo tem to tak _.debounce()
@@ -60,7 +60,7 @@ const Add: FC = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  const isObjComplete = (obj: Payload): boolean => {
+  const isObjComplete = (obj: BookInterface): boolean => {
     const objKeys = Object.keys(obj) // ts nie wierzy, że to są klucze z objektu
     const isComplete = objKeys.every((item: string) => {
       return obj.author !== '' && obj.years !== undefined
@@ -85,7 +85,7 @@ const Add: FC = () => {
       })
 
       // storzenie obiektu na wzór 
-      const payload: Payload = {
+      const payload: BookInterface = {
         author: (onlyElForm[0] as HTMLInputElement).value,
         title: (onlyElForm[1] as HTMLInputElement).value,
         desc: (onlyElForm[2] as HTMLInputElement).value,
@@ -118,7 +118,11 @@ const Add: FC = () => {
             global.globalOpenSnackbarChange(true)
             console.log(err)
           })
-        navigate('/all')
+          .finally(()=> {
+            navigate('/all')
+
+          })
+          
 
       } else {
         ///

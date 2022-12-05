@@ -10,25 +10,18 @@ interface PropsNav {
 
 export const Nav: FC<PropsNav> = props => {
 	return (
-		<>
-			<section>
-				<nav>
-				
-					<ul className={style.menu}>
-						<li>
-							<Link to="/">Home</Link>
-						</li>
-						<li>
-							<Link to="/all">All Books</Link>
-						</li>
-						<li>
-							<Link to="add">Add Books</Link>
-						</li>
-					</ul>
-					
-				</nav>
-			</section>
-
-		</>
+		<nav>
+			<ul className={style.menu}>
+				<li>
+					<Link to="/">Home</Link>
+				</li>
+				<li>
+					<Link to="/all">All Books</Link>
+				</li>
+				<li>
+					<Link to="add">Add Books</Link>
+				</li>
+			</ul>
+		</nav>
 	)
 }
