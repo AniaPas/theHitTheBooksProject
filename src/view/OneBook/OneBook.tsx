@@ -109,24 +109,27 @@ export const OneBook: FC = () => {
         >
           <Button
             size='small'
+            sx={{ fontWeight: 600 }}
             disabled={!showRating}
             onClick={() => addRating(book)}
           >
-            dodaj ocenę
+            Add rating
           </Button>
           <Button
             size='small'
-            color='warning'
+            color='primary'
+            sx={{ fontWeight: 600 }}
             onClick={() => setIsBookEdit(true)}
           >
-            Edytuj
+            Edit
           </Button>
           <Button
             size='small'
-            color='error'
+            color='primary'
+            sx={{ backgroundColor: "#ffc107", fontWeight: 600 }}
             onClick={() => deleteBook(book.id)}
           >
-            Usuń
+            Remove
           </Button>
         </CardComponentBook>
       )}
@@ -150,33 +153,33 @@ export const OneBook: FC = () => {
         <>
           <Box className={styles.blockPadding}>
             <FormControl sx={{ marginBottom: 4 }}>
-              <InputLabel htmlFor='edit-title'>Tytuł ksiązki</InputLabel>
+              <InputLabel htmlFor='edit-title'>Book title</InputLabel>
               <Input
                 id='edit-title'
                 placeholder={book.title}
                 inputRef={editTitle}
               />
               <FormHelperText id='my-helper-text'>
-                Poprzednia wartośc {book.title}
+                Previous value {book.title}
               </FormHelperText>
             </FormControl>
             <TextField
               id='edit-desc'
-              label='Opis ksiązki'
+              label='Book description'
               variant='standard'
               multiline
               maxRows={10}
-              helperText={"Poprzedni opis: " + book.desc}
+              helperText={"Previous description: " + book.desc}
               inputRef={editDesc}
             />
           </Box>
           <Button
-            sx={{ color: "#ffc107" }}
+            sx={{ color: "#ffc107", fontWeight: 600 }}
             size='small'
             //color='success'
             onClick={() => editBookFc(book)}
           >
-            Zapisz zminy
+            Save
           </Button>
         </>
       )}

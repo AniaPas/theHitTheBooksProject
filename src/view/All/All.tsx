@@ -37,7 +37,7 @@ export const All: FC = () => {
     const author = global.globalAuthors.find(
       (item) => item.author.toUpperCase() === book.author.toUpperCase()
     );
-    const nota = author ? author.nota : "Brak noty biograficznej";
+    const nota = author ? author.nota : "No bio";
     return { ...book, nota };
   });
 
@@ -65,9 +65,10 @@ export const All: FC = () => {
           <Button
             onClick={() => showMore(item.id!, item.title)}
             size='small'
-            color='warning'
+            color='primary'
+            sx={{ fontWeight: 600 }}
           >
-            Pokaż szczegóły
+            Show details
           </Button>
         </CardComponentBook>
       </Grid>

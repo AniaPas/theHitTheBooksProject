@@ -287,7 +287,7 @@ const Add: FC = () => {
           </Typography>
           <TextField
             id='nota'
-            label='Notka biograficzna o autorze'
+            label='Author bio note'
             variant='standard'
             inputRef={authorNote}
             multiline

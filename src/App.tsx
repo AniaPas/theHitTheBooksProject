@@ -63,7 +63,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <GlobalStore>
         <div className='app'>
-          <p>Tu mozna coś wrzucić </p>
+          <h1 className='logo'>Hit the books</h1>
           <Nav navElements={navigation}></Nav>space
           <Routes>
             <Route path='/all' element={<All />} />

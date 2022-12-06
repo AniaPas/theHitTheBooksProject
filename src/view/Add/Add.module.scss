@@ -1,18 +1,20 @@
 .blockPadding {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    column-gap: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  column-gap: 250px;
+  background-color: rgb(188, 188, 188);
 }
 
 .dataPicker {
-    width: 30%;
-    margin-bottom: 50px;
+  width: 30%;
+  margin-bottom: 50px;
 }
 
 .button {
-    width: 250px;
+  width: 250px;
 }
-.Wrapperbutton, .WrapperDataPicker {
-    margin: 25px;
+.Wrapperbutton,
+.WrapperDataPicker {
+  margin: 25px;
 }
