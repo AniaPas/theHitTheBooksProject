@@ -27,6 +27,7 @@ const theme = createTheme({
   typography: {
     fontFamily: `"Space Mono", "monospace"`,
     fontSize: 14,
+
     fontWeightLight: 300,
     fontWeightRegular: 400,
     fontWeightMedium: 500,

@@ -44,7 +44,7 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
       ? Math.round(
           rating.reduce((pre, curent) => pre + curent, 0) / rating.length
         )
-      : "Brak oceny";
+      : "No rating";
   const tooltip = () => {
     return nota ? (
       <>
@@ -56,21 +56,21 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
           }
           className={styles.tooltipMain}
         >
-          <Typography variant='h5' component='h5'>
-            Autor: {author.toUpperCase()}
+          <Typography variant='h6' component='h6' sx={{ fontWeight: 600 }}>
+            Author: {author}
           </Typography>
         </Tooltip>
-        <Typography variant='h6'>
-          <span> {title.toUpperCase()} ocena czytelników</span> {ratingValue}
+        <Typography variant='h6' sx={{ fontWeight: 600 }}>
+          <span>Rating: {ratingValue}/10</span>
         </Typography>
       </>
     ) : (
       <>
-        <Typography variant='h5' component='h5'>
-          Autor: {author?.toUpperCase()}
+        <Typography variant='h6' component='h6' sx={{ fontWeight: 600 }}>
+          Author: {author}
         </Typography>
-        <Typography variant='h6'>
-          <span> {title} ocena czytelników</span> {ratingValue}
+        <Typography variant='h6' sx={{ fontWeight: 600 }}>
+          <span>Rating: {ratingValue}/10</span>
         </Typography>
       </>
     );
@@ -96,7 +96,7 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
           color='inherit'
           onClick={() => navigate(-1)}
         >
-          Powrót
+          Back
         </Button>
       )}
       <Card
@@ -117,8 +117,8 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
           image={imgScr}
         />
         <CardContent>
-          <Typography variant='h5' component='h5'>
-            Tutuł: {title}
+          <Typography variant='h6' component='h6' sx={{ fontWeight: 600 }}>
+            Title: {title}
           </Typography>
           {tooltip()}
         </CardContent>
