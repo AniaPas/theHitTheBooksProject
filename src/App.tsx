@@ -2,6 +2,7 @@ import React from "react";
 // style
 import "./App.scss";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { amber } from "@mui/material/colors";
 
 // router
 import { Routes, Route } from "react-router-dom";
@@ -30,9 +31,11 @@ const theme = createTheme({
     fontWeightRegular: 400,
     fontWeightMedium: 500,
   },
-  // palette: {
-  //mode: "light",
-  //},
+  palette: {
+    primary: {
+      main: amber[900],
+    },
+  },
 });
 
 const App = () => {

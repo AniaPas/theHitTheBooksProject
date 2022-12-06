@@ -108,7 +108,11 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
         <CardMedia
           className={styles[classCss]}
           component='img'
-          sx={{ width: 200, filter: "grayscale(1)" }}
+          sx={{
+            width: 200,
+            filter: "grayscale(1)",
+            backgroundColor: "rgba(61, 61, 61, 0.904)",
+          }}
           alt={`Okładka książki ${title}`}
           image={imgScr}
         />
