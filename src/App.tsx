@@ -2,7 +2,7 @@ import React from "react";
 // style
 import "./App.scss";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { amber } from "@mui/material/colors";
+import { grey, amber } from "@mui/material/colors";
 
 // router
 import { Routes, Route } from "react-router-dom";
@@ -12,6 +12,7 @@ import { Home } from "./view/Home/Home";
 import Add from "./view/Add/Add";
 import { All } from "./view/All/All";
 import { OneBook } from "./view/OneBook/OneBook";
+import { Footer } from "./components/Footer/Footer";
 
 // componenty składowe
 
@@ -34,7 +35,10 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: amber[900],
+      main: grey[900],
+    },
+    secondary: {
+      main: amber[600],
     },
   },
 });

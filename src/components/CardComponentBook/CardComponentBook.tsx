@@ -113,7 +113,7 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
             filter: "grayscale(1)",
             backgroundColor: "rgba(61, 61, 61, 0.904)",
           }}
-          alt={`Okładka książki ${title}`}
+          alt={`Book cover ${title}`}
           image={imgScr}
         />
         <CardContent>
