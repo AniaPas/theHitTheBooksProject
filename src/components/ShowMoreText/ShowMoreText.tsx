@@ -13,7 +13,14 @@ export const ShowMoreText: FC<ShowText> = ({ text }) => {
         <Button
           variant='text'
           color='primary'
-          sx={{ fontWeight: 600, fontSize: 12 }}
+          sx={{
+            fontWeight: 600,
+            fontSize: 12,
+            transition: "all 0.45s",
+            "&:hover": {
+              backgroundColor: "#ffc107",
+            },
+          }}
           onClick={() => setShowMore(!showMore)}
         >
           {showMore ? "Show less" : "Show more"}

@@ -108,7 +108,13 @@ export const OneBook: FC = () => {
         >
           <Button
             size='small'
-            sx={{ fontWeight: 600 }}
+            sx={{
+              fontWeight: 600,
+              transition: "all 0.45s",
+              "&:hover": {
+                backgroundColor: "#ffc107",
+              },
+            }}
             disabled={!showRating}
             onClick={() => addRating(book)}
           >
@@ -117,7 +123,13 @@ export const OneBook: FC = () => {
           <Button
             size='small'
             color='primary'
-            sx={{ fontWeight: 600 }}
+            sx={{
+              fontWeight: 600,
+              transition: "all 0.45s",
+              "&:hover": {
+                backgroundColor: "#ffc107",
+              },
+            }}
             onClick={() => setIsBookEdit(true)}
           >
             Edit
@@ -125,7 +137,14 @@ export const OneBook: FC = () => {
           <Button
             size='small'
             color='primary'
-            sx={{ backgroundColor: "#ffc107", fontWeight: 600 }}
+            sx={{
+              backgroundColor: "#ffc107",
+              fontWeight: 600,
+              transition: "all 0.45s",
+              "&:hover": {
+                backgroundColor: "transparent",
+              },
+            }}
             onClick={() => deleteBook(book.id)}
           >
             Remove

@@ -66,7 +66,13 @@ export const All: FC = () => {
             onClick={() => showMore(item.id!, item.title)}
             size='small'
             color='primary'
-            sx={{ fontWeight: 600 }}
+            sx={{
+              fontWeight: 600,
+              transition: "all 0.45s",
+              "&:hover": {
+                backgroundColor: "#ffc107",
+              },
+            }}
           >
             Show details
           </Button>

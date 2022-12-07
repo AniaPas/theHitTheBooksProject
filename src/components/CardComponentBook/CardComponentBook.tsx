@@ -95,6 +95,13 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
           startIcon={<ArrowBackIcon />}
           color='inherit'
           onClick={() => navigate(-1)}
+          sx={{
+            fontWeight: 600,
+            transition: "all 0.45s",
+            "&:hover": {
+              color: "rgb(205, 202, 202)",
+            },
+          }}
         >
           Back
         </Button>
@@ -113,6 +120,7 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
 
             filter: "grayscale(1)",
             backgroundColor: "rgba(61, 61, 61, 1)",
+            transition: "all 0.45s",
             "&:hover": {
               filter: "grayscale(0)",
             },
