@@ -65,13 +65,14 @@ const App = () => {
       <GlobalStore>
         <div className='app'>
           <Header />
-          <Nav navElements={navigation}></Nav>space
+          <Nav navElements={navigation}></Nav>
           <Routes>
             <Route path='/all' element={<All />} />
             <Route path='/add' element={<Add />} />
             <Route path='/' element={<Home />} />
             <Route path='/:book/:id' element={<OneBook />} />
           </Routes>
+          <Footer />
         </div>
       </GlobalStore>
     </ThemeProvider>

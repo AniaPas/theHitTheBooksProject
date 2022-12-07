@@ -1,20 +1,22 @@
+@import "./../../variables/_variables.scss";
 footer {
   flex-direction: column;
-
-  padding-top: 20px;
-  padding-bottom: 5px;
+  padding: 20px;
   background-color: rgba(61, 61, 61, 0.904);
   border-radius: 4px;
+  margin-top: 15px;
 
   //font-size: 12px;
 
-  width: inherit;
-  height: 60px;
-  line-height: 60px;
-  font-size: 14px;
+  .footerText {
+    width: inherit;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
 
-  color: #000000;
-  text-align: center;
+    color: $amber;
+    text-align: center;
+  }
 
   a {
     text-decoration: none;

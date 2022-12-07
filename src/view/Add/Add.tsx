@@ -230,7 +230,7 @@ const Add: FC = () => {
           <InputLabel htmlFor={idTitle}>Book title</InputLabel>
           <Input id={idTitle} />
           <FormHelperText id='my-helper-text'>
-            Podaj tytuł książki
+            Provide the book title
           </FormHelperText>
         </FormControl>
 

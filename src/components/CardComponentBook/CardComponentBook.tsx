@@ -112,6 +112,9 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
             width: 200,
             filter: "grayscale(1)",
             backgroundColor: "rgba(61, 61, 61, 1)",
+            "&:hover": {
+              filter: "grayscale(0)",
+            },
           }}
           alt={`Book cover ${title}`}
           image={imgScr}
