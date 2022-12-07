@@ -13,6 +13,7 @@ import Add from "./view/Add/Add";
 import { All } from "./view/All/All";
 import { OneBook } from "./view/OneBook/OneBook";
 import { Footer } from "./components/Footer/Footer";
+import { Header } from "./components/Header/Header";
 
 // componenty składowe
 
@@ -63,7 +64,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <GlobalStore>
         <div className='app'>
-          <h1 className='logo'>Hit the books</h1>
+          <Header />
           <Nav navElements={navigation}></Nav>space
           <Routes>
             <Route path='/all' element={<All />} />

@@ -1,3 +1,4 @@
+@import "./../../variables/_variables.scss";
 html {
   box-sizing: border-box;
 }
@@ -16,7 +17,7 @@ nav {
   top: 0;
   padding-top: 20px;
   padding-bottom: 5px;
-  background-color: rgba(61, 61, 61, 0.904);
+  background-color: $greyTrans;
   border-radius: 4px;
   z-index: 100;
 }
@@ -35,13 +36,13 @@ nav {
 
   a {
     font-size: 22px;
-    color: #ffc107;
+    color: $amber;
     text-decoration: none;
     transition: all 0.45s;
   }
 
   &:hover a {
-    color: rgb(188, 188, 188);
+    color: rgb(205, 202, 202);
     font-size: 26px;
   }
 }

@@ -111,7 +111,7 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
           sx={{
             width: 200,
             filter: "grayscale(1)",
-            backgroundColor: "rgba(61, 61, 61, 0.904)",
+            backgroundColor: "rgba(61, 61, 61, 1)",
           }}
           alt={`Book cover ${title}`}
           image={imgScr}
