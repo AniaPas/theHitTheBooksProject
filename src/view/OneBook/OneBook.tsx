@@ -13,7 +13,6 @@ import {
   Stack,
   TextField,
 } from "@mui/material";
-import { amber } from "@mui/material/colors";
 import { CardComponentBook } from "../../components/CardComponentBook/CardComponentBook";
 import styles from "./OneBook.module.scss";
 export const OneBook: FC = () => {
@@ -160,7 +159,7 @@ export const OneBook: FC = () => {
                 inputRef={editTitle}
               />
               <FormHelperText id='my-helper-text'>
-                Previous value {book.title}
+                Previous value: {book.title}
               </FormHelperText>
             </FormControl>
             <TextField
@@ -174,8 +173,9 @@ export const OneBook: FC = () => {
             />
           </Box>
           <Button
-            sx={{ color: "#ffc107", fontWeight: 600 }}
             size='small'
+            color='primary'
+            sx={{ backgroundColor: "#ffc107", fontWeight: 600 }}
             //color='success'
             onClick={() => editBookFc(book)}
           >

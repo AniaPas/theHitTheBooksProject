@@ -129,7 +129,7 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
         {collapseFn()}
         {!!{ children } && (
           <CardActions
-            sx={{ flexDirection: "column-reverse" }}
+            sx={{ alignItems: "flex-end" }}
             className={styles.cardActionBook}
           >
             {children}

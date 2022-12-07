@@ -1,6 +1,7 @@
 @import "./../../variables/_variables.scss";
 footer {
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 24px;
   padding: 20px;
   background-color: rgba(61, 61, 61, 0.904);
   border-radius: 4px;
@@ -9,25 +10,24 @@ footer {
   //font-size: 12px;
 
   .footerText {
-    width: inherit;
-    height: 60px;
-    line-height: 60px;
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     font-size: 14px;
-
     color: $amber;
     text-align: center;
-  }
-
-  a {
-    text-decoration: none;
-    color: inherit;
-    border-bottom: 1px solid;
-
-    &:hover {
-      border-bottom: 1px transparent;
-    }
+    padding-right: 5px;
   }
 
   .icon {
+    grid-column: 3/4;
+    color: $amber;
+    transition: all 0.45s;
+
+    &:hover {
+      color: $greyLight2;
+      scale: 1.3;
+    }
   }
 }

@@ -1,6 +1,11 @@
+@import "./../../variables/_variables.scss";
+
 .blockPadding {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    column-gap: 250px;
+  display: flex;
+  background-color: $greyLight2;
+  flex-direction: row;
+  padding: 50px;
+  column-gap: 250px;
+  border-radius: 4px;
+  margin-bottom: 15px;
 }
