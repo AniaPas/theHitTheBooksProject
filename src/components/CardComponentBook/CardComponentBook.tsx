@@ -100,6 +100,7 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
             transition: "all 0.45s",
             "&:hover": {
               color: "rgb(205, 202, 202)",
+              backgroundColor: "transparent",
             },
           }}
         >

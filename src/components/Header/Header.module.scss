@@ -13,11 +13,10 @@
   line-height: 1.4rem;
   z-index: 200;
   transform: rotate(-5deg) translate(-9px);
-  //width: 15vw;
-}
-
-.quote {
-  color: $greyLight2;
-  text-align: right;
-  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.45s;
+  &:hover {
+    color: $amber;
+    //transform: rotate(5deg);
+  }
 }
