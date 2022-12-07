@@ -18,8 +18,9 @@ nav {
   padding-top: 20px;
   padding-bottom: 5px;
   background-color: $greyTrans;
-  border-radius: 4px;
+  border-radius: 0 0 4px 4px;
   z-index: 100;
+  margin-bottom: 15px;
 }
 
 .menu {
@@ -33,6 +34,7 @@ nav {
   height: 50px;
   transition: background-position-x 0.9s linear;
   text-align: center;
+  line-height: 1.1rem;
 
   a {
     font-size: 22px;
