@@ -4,6 +4,7 @@
   border-radius: 4px;
   padding: 5px;
   width: 20%;
+  justify-self: flex-start;
 }
 
 .secondary {
@@ -17,8 +18,9 @@
 .bodyCardBook {
   min-height: 700px;
 
-  // position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .cardActionBook {
-  // position: absolute;
+  flex-grow: 1;
 }

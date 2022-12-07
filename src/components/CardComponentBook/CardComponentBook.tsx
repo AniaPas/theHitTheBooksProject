@@ -110,6 +110,7 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
           component='img'
           sx={{
             width: 200,
+
             filter: "grayscale(1)",
             backgroundColor: "rgba(61, 61, 61, 1)",
             "&:hover": {
@@ -127,7 +128,10 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
         </CardContent>
         {collapseFn()}
         {!!{ children } && (
-          <CardActions className={styles.cardActionBook}>
+          <CardActions
+            sx={{ flexDirection: "column-reverse" }}
+            className={styles.cardActionBook}
+          >
             {children}
           </CardActions>
         )}
