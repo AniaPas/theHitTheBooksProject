@@ -1,4 +1,5 @@
 import { FC } from "react";
+
 // material ui
 import {
   Card,
@@ -9,9 +10,15 @@ import {
   Button,
   Tooltip,
 } from "@mui/material";
-import styles from "./CardComponentBook.module.scss";
-import { useNavigate } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+
+// styles
+import styles from "./CardComponentBook.module.scss";
+
+//hooks
+import { useNavigate } from "react-router-dom";
+
+//components
 import { ShowMoreText } from "../ShowMoreText/ShowMoreText";
 interface PropsCardComponentBook {
   title: string;
@@ -129,6 +136,7 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
           alt={`Book cover ${title}`}
           image={imgScr}
         />
+
         <CardContent>
           <Typography variant='h6' component='h6' sx={{ fontWeight: 600 }}>
             Title: {title}
@@ -148,8 +156,3 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
     </div>
   );
 };
-
-// warunek ? true : false
-
-// !! zminieająna boola tj. pusta tablica let arr = [] !!arr to będzie false
-// mały JS śmieszek let obj = {}  !!obj da true
