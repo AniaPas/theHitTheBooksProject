@@ -1,6 +1,8 @@
 import React from "react";
-// style
+// styles
 import "./App.scss";
+
+//mui
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { grey, amber } from "@mui/material/colors";
 
@@ -14,17 +16,14 @@ import { All } from "./view/All/All";
 import { OneBook } from "./view/OneBook/OneBook";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
-
-// componenty składowe
-
 import { Nav } from "./components/Nav/Nav";
 
-// iterface
+// interface
 import { navElements, PathNav } from "./HelperInterface/Navigation";
 
 // global Store
-
 import { GlobalStore } from "./Store/GlobalStore";
+
 const theme = createTheme({
   typography: {
     fontFamily: `"Space Mono", "monospace"`,

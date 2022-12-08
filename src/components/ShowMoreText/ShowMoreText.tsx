@@ -1,5 +1,9 @@
-import { Button, Typography } from "@mui/material";
+//FC and hooks
 import { FC, useState } from "react";
+
+//mui
+import { Button, Typography } from "@mui/material";
+
 interface ShowText {
   text: string;
 }
