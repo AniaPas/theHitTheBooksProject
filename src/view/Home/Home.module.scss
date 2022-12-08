@@ -1,0 +1,58 @@
+@import "./../../variables/_variables.scss";
+
+.homeWrapper {
+  display: grid;
+  grid-template:
+    "a a a"
+    "b c c";
+  background-color: $greyLight;
+  border-radius: 4px;
+  padding: 35px;
+  color: $greyText;
+
+  .quote {
+    grid-area: a;
+    font-family: $font1;
+
+    justify-content: center;
+    align-items: center;
+    color: $greyText;
+    text-align: right;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+  }
+
+  .quote::first-letter {
+    font-size: 4rem;
+    line-height: 2rem;
+  }
+  .bookImg {
+    grid-area: b;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .description {
+    grid-area: c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homeWrapper {
+    display: grid;
+    grid-template:
+      "a"
+      "b"
+      "c";
+  }
+  .bookImg {
+    width: 70vw;
+    padding-bottom: 25px;
+  }
+}
