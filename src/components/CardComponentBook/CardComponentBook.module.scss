@@ -1,9 +1,8 @@
 @import "./../../variables/_variables.scss";
-.px150 {
+.coverImg {
   border: 2px solid $grey;
   border-radius: 4px;
   padding: 5px;
-  width: 20%;
   justify-self: flex-start;
 }
 
@@ -11,13 +10,8 @@
   margin: 25px;
 }
 
-.tooltipMain {
-  // color: red;
-}
-
 .bodyCardBook {
   min-height: 700px;
-
   display: flex;
   flex-direction: column;
 }

@@ -54,7 +54,7 @@ export const All: FC = () => {
       <Grid item xs={12} md={howManyCards} key={item.id}>
         <CardComponentBook
           title={item.title}
-          classCss='px150'
+          classCss='coverImg'
           author={item.author}
           desc={item.desc}
           nota={item.nota}

@@ -99,7 +99,7 @@ export const OneBook: FC = () => {
       {!isBookEdit && (
         <CardComponentBook
           title={book.title}
-          classCss={"px150"}
+          classCss={"coverImg"}
           author={book.author}
           desc={book.desc}
           isBackArrow={true}
