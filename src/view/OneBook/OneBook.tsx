@@ -1,7 +1,11 @@
+//hooks
 import { FC, useState, useEffect, useRef } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
+//services
 import { getOneBook, deletBook, editBook } from "../../services/books.service";
+
+//mui
 import {
   Box,
   Button,
@@ -13,8 +17,13 @@ import {
   Stack,
   TextField,
 } from "@mui/material";
-import { CardComponentBook } from "../../components/CardComponentBook/CardComponentBook";
+
+//styles
 import styles from "./OneBook.module.scss";
+
+//component
+import { CardComponentBook } from "../../components/CardComponentBook/CardComponentBook";
+
 export const OneBook: FC = () => {
   interface BookInterface {
     id: number;
@@ -49,11 +58,6 @@ export const OneBook: FC = () => {
       }
     };
     getOneBookFetch();
-    // ten return 'sprząta po useEffect,
-    // uzywamy go kiedy faktycznie potrzebujemy, coś posprzatać.
-    return () => {
-      console.log("unmounts");
-    };
   }, [id, showRating, isBookEdit]);
   const deleteBook = (id: number) => {
     deletBook(id.toString())
@@ -195,18 +199,12 @@ export const OneBook: FC = () => {
             size='small'
             color='primary'
             sx={{ backgroundColor: "#ffc107", fontWeight: 600 }}
-            //color='success'
             onClick={() => editBookFc(book)}
           >
             Save
           </Button>
         </>
       )}
-      {/* <Snackbar open={global.globalOpenSnackbar} autoHideDuration={6000} onClose={handleCloseSnackbar}>
-        <Alert onClose={handleCloseSnackbar} severity={global.globalalertInfoSnackbar.severity} sx={{ width: '100%' }}>
-          {global.globalalertInfoSnackbar.message}
-        </Alert>
-      </Snackbar> */}
     </>
   );
 };
