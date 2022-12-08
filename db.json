@@ -18,73 +18,94 @@
   },
   "books": [
     {
-      "author": "Blanka Lipińska",
-      "title": "365 dni",
-      "desc": "Massimo daje dziewczynie 365 dni na to, by go pokochała i z nim została. „Ojciec chrzestny” w połączeniu z „Pięćdziesięcioma twarzami Greya”",
-      "years": 2018,
+      "author": "Niccolo Machiavelli",
+      "title": "The Prince",
+      "desc": "Machiavelli needs to be looked at as he really was. Hence: Can Machiavelli, who makes the following observations, be Machiavellian as we understand the disparaging term? 1. So it is that to know the nature of a people, one need be a Prince; to know the nature of a Prince, one need to be of the people. 2. If a Prince is not given to vices that make him hated, it is unsusal for his subjects to show their affection for him. 3. Opportunity made Moses, Cyrus, Romulus, Theseus, and others; their virtue domi-nated the opportunity, making their homelands noble and happy. Armed prophets win; the disarmed lose. 4. Without faith and religion, man achieves power but not glory. 5. Prominent citizens want to command and oppress; the populace only wants to be free of oppression. 6. A Prince needs a friendly populace; otherwise in diversity there is no hope. 7. A Prince, who rules as a man of valor, avoids disasters, 8. Nations based on mercenary forces will never be solid or secure. 9. Mercenaries are dangerous because of their cowardice 10. There are two ways to fight: one with laws, the other with force. The first is rightly man’s way; the second, the way of beasts.",
+      "years": 1513,
       "rating": [
-        5
+        9,
+        8
       ],
-      "url": "https://s.lubimyczytac.pl/upload/books/4850000/4850591/666969-170x243.jpg",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1390055828i/28862.jpg",
       "id": 1
     },
     {
-      "author": "Adam Mickiewicz",
-      "title": "Pan Tadeusz ",
-      "desc": "lalalalalala pashgwfdwqedgfqfvaDJfcbaddcajH",
-      "years": 2022,
+      "author": "H.P. Lovecraft",
+      "title": "The Call of Cthulu and Other Stories ",
+      "desc": "This collection spans Lovecraft’s literary career, and charts the development of his ‘cosmicist’ philosophy; the belief that behind the veil of our blinkered everyday lives lies another reality, too terrible for the human mind to comprehend. In stories written in the gothic tradition, narrators recount their descent into madness and despair. Through their investigations into the unexplained, they tug at the thin threads that separate our world from another of indescribable horror. ‘“ Great God! I never dreamed of THIS!”’ screams occultist Harley Warren in ‘The Statement of Randolph Carter’, as he begs his companion to bury him alive. Another early piece, ‘The Outsider’ – a tragic and emotive evocation of loneliness and desolation – follows a man’s escape from his castle in a desperate search for human contact, but the loathsome truth he discovers destroys his mind.",
+      "years": 1926,
       "rating": [
-        5,
         10,
-        10,
-        1,
-        1,
-        1
+        10
       ],
-      "url": "https://s.lubimyczytac.pl/upload/books/4936000/4936657/836580-170x243.jpg",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320618937i/160149.jpg",
+      "id": 2
+    },
+    {
+      "author": "Edgar Allan Poe",
+      "title": "The Essential Tales and Poems of Edgar Allan Poe",
+      "desc": "The Essential Tales and Poems of Edgar Allan Poe, by Edgar Allan Poe, is part of the Barnes & Noble Classics series, which offers quality editions at affordable prices to the student and the general reader, including new scholarship, thoughtful design, and pages of carefully crafted extras. Creator of the modern detective story, innovative architect of the horror genre, and a poet of extraordinary musicality, Edgar Allan Poe remains one of America's most popular and influential writers. His tales and poems brim with psychological depth, almost painful intensity, and unexpected—and surprisingly modern—flashes of dark humor and irony.",
+      "years": 1843,
+      "rating": [
+        8,
+        8
+      ],
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1632700707i/32552.jpg",
+      "id": 3
+    },
+    {
+      "author": "Virginia Woolf",
+      "title": "Mrs. Dalloway",
+      "desc": "Heralded as Virginia Woolf's greatest novel, this is a vivid portrait of a single day in a woman's life. When we meet her, Mrs. Clarissa Dalloway is preoccupied with the last-minute details of party preparation while in her mind she is something much more than a perfect society hostess. As she readies her house, she is flooded with remembrances of faraway times. And, met with the realities of the present, Clarissa reexamines the choices that brought her there, hesitantly looking ahead to the unfamiliar work of growing old.",
+      "years": 1925,
+      "rating": [
+        9,
+        8,
+        10
+      ],
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1646148221i/14942.jpg",
       "id": 4
     },
     {
-      "author": "Jan Kochanowski",
-      "title": " Lista dzieł Jana Kochanowskiego.",
-      "desc": "Odpis wczesnej redakcji łacińskich Elegii, znacznie różniącej się od wersji drukowanej z 1584 (zob. poz. XXXI), znajdujący się w rękopisie Jana Osmólskiego z Prawiednik (tzw. „Sylwa Osmólskiego”). Przyjmuje się, że teksty Kochanowskiego wpisano do rękopisu ok. 1562 r. Obok elegii wczesnej redakcji, w rękopisie znajduje się odpis wczesnych redakcji dwóch wierszy poety, zapisanych bez oznaczania autora. Są to: A. Pieśń zaczynająca się od słów: „Oko śmiertelne Boga nie widziało” wydana we Fragmentach (zobacz pozycja 40) jako Pieśń III; B. Gratiarum Actio pro victu,",
-      "years": 1900,
+      "author": "Charles Darwin",
+      "title": "The Origin of Species",
+      "desc": "Darwin's theory of natural selection issued a profound challenge to orthodox thought and belief: no being or species has been specifically created; all are locked into a pitiless struggle for existence, with extinction looming for those not fitted for the task. Yet The Origin of Species (1859) is also a humane and inspirational vision of ecological nterrelatedness, revealing the complex mutual interdependencies between animal and plant life, climate and physical environment, and—by implication—within the human world. Written for the general reader, in a style which combines the rigour of science with the subtlety of literature, The Origin of Species remains one of the founding documents of the modern age.",
+      "years": 1859,
       "rating": [
-        5,
-        5
+        9,
+        10
       ],
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Odprawa.jpg/220px-Odprawa.jpg",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1298417570i/22463.jpg",
       "id": 5
     },
     {
-      "author": "Blanka Lipińska",
-      "title": "365 dni",
-      "desc": "Powieść była nominowana do nagrody Bestsellery Empiku w kategorii literatura polska[1][2]. Książka rozeszła się w nakładzie ponad 100 tys. egzemplarzy[3].\n\nPowieść została zekranizowana, a film 365 dni wyreżyserowała Barbara Białowąs. Premiera filmu odbyła się w 2020, a główne role zagrali w niej Anna-Maria Sieklucka jako Laura Biel i Michele Morrone jako Don Massimo Torricelli. Film był najczęściej oglądaną polską produkcją w kinach w 2020, za co został nagrodzony Bursztynowymi Lwami podczas 45. Festiwalu Polskich Filmów Fabularnych w Gdyni[4]. Po międzynarodowej premierze na Netflixie ekranizacja była najpopularniejszym filmem na tej platformie w 2020[5].",
-      "years": 2016,
+      "author": "Mary Shelly",
+      "title": "Frankenstein",
+      "desc": "Mary Shelley began writing Frankenstein when she was only eighteen. At once a Gothic thriller, a passionate romance, and a cautionary tale about the dangers of science, Frankenstein tells the story of committed science student Victor Frankenstein. Obsessed with discovering the cause of generation and life and bestowing animation upon lifeless matter, Frankenstein assembles a human being from stolen body parts but; upon bringing it to life, he recoils in horror at the creature's hideousness. Tormented by isolation and loneliness, the once-innocent creature turns to evil and unleashes a campaign of murderous revenge against his creator, Frankenstein. Frankenstein, an instant bestseller and an important ancestor of both the horror and science fiction genres, not only tells a terrifying story, but also raises profound, disturbing questions about the very nature of life and the place of humankind within the cosmos: What does it mean to be human? What responsibilities do we have to each other? How far can we go in tampering with Nature? In our age, filled with news of organ donation genetic engineering, and bio-terrorism, these questions are more relevant than ever.",
+      "years": 1818,
       "rating": [
-        5,
-        10,
-        5
+        8,
+        10
       ],
-      "url": "https://ecsmedia.pl/c/365-dni-w-iext115627841.jpg",
+      "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1658927727i/61751647.jpg",
       "id": 6
     }
   ],
   "author": [
     {
       "id": 1,
-      "author": "Adam Mickiewicz",
-      "nota": "Polski poeta, działacz polityczny, publicysta, tłumacz, filozof, działacz religijny, mistyk, organizator i dowódca wojskowy, nauczyciel akademicki."
-    },
-    {
-      "id": 3,
-      "author": "Henryk sienkiewicz",
-      "nota": "Herbu Oszyk, pseudonim „Litwos”, „Musagetes”, „Juliusz Polkowski”, „K. Dobrzyński” – polski nowelista, powieściopisarz i publicysta; laureat Nagrody Nobla w dziedzinie literatury za całokształt twórczości, jeden z najpopularniejszych polskich pisarzy przełomu XIX i XX w."
+      "author": "Mary Shelly",
+      "nota": "Mary Shelley (née Mary Wollstonecraft Godwin, often known as Mary Wollstonecraft Shelley) was an English novelist, short story writer, dramatist, essayist, biographer, travel writer, and editor of the works of her husband, Romantic poet and philosopher Percy Bysshe Shelley. She was the daughter of the political philosopher William Godwin and the writer, philosopher, and feminist Mary Wollstonecraft."
     },
     {
       "id": 2,
-      "author": "Bolesław Prus",
-      "nota": "Polski pisarz, prozaik, nowelista i publicysta okresu pozytywizmu, współtwórca polskiego realizmu, kronikarz Warszawy, myśliciel i popularyzator wiedzy, działacz społeczny, propagator turystyki pieszej i rowerowej. Jeden z najwybitniejszych i najważniejszych pisarzy w historii literatury polskiej."
+      "author": "Stephen Hawking",
+      "nota": "In the ten years since its publication in 1988, Stephen Hawking's classic work has become a landmark volume in scientific writing, with more than nine million copies in forty languages sold worldwide. That edition was on the cutting edge of what was then known about the origins and nature of the universe. But the intervening years have seen extraordinary advances in the technology of observing both the micro- and the macrocosmic worlds. These observations have confirmed many of Professor Hawking's theoretical predictions in the first edition of his book, including the recent discoveries of the Cosmic Background Explorer satellite (COBE), which probed back in time to within 300,000 years of the universe's beginning and revealed wrinkles in the fabric of space-time that he had projected. Eager to bring to his original text the new knowledge revealed by these observations, as well as his own recent research, Professor Hawking has prepared a new introduction to the book, written an entirely new chapter on wormholes and time travel, and updated the chapters throughout."
+    },
+    {
+      "id": 3,
+      "author": "Virginia Woolf",
+      "nota": "(Adeline) Virginia Woolf was an English novelist and essayist regarded as one of the foremost modernist literary figures of the twentieth century. During the interwar period, Woolf was a significant figure in London literary society and a member of the Bloomsbury Group. Her most famous works include the novels Mrs. Dalloway (1925), To the Lighthouse (1927), and Orlando (1928), and the book-length essay A Room of One's Own (1929) with its famous dictum, 'a woman must have money and a room of her own if she is to write fiction.'"
     },
     {
       "author": "Jan Kochanowski",
@@ -92,38 +113,38 @@
       "id": 4
     },
     {
-      "author": "",
-      "nota": "Brak informacji o ",
+      "author": "Charles Darwin",
+      "nota": "Charles Robert Darwin was an English naturalist, eminent as a collector and geologist, who proposed and provided scientific evidence that all species of life have evolved over time from common ancestors through the process he called natural selection. The fact that evolution occurs became accepted by the scientific community and the general public in his lifetime, while his theory of natural selection came to be widely seen as the primary explanation of the process of evolution in the 1930s, and now forms the basis of modern evolutionary theory. In modified form, Darwin’s scientific discovery remains the foundation of biology, as it provides a unifying logical explanation for the diversity of life.",
       "id": 5
     },
     {
-      "author": "Bl",
-      "nota": "Brak informacji o Bl",
+      "author": "Niccolo Machiavelli",
+      "nota": "Niccolò di Bernardo dei Machiavelli was an Italian political philosopher, musician, poet, and playwright. He is a figure of the Italian Renaissance and a central figure of its political component, most widely known for his treatises on realist political theory (The Prince) on the one hand and republicanism (Discourses on Livy) on the other.",
       "id": 6
     },
     {
-      "author": "Blanka Lipińska",
-      "nota": "Urodziła i wychowywała się w Puławach[2]. Jest córką Grzegorza i Małgorzaty[3]. Ma starszego o rok brata Jakuba[2].\n\nJest absolwentką Liceum Ogólnokształcącego nr VI Zespołu Szkół nr 3 w Puławach. Po maturze uczyła się w studium kosmetycznym, po którego ukończeniu została wizażystką. W 2007 przeprowadziła się do Warszawy, gdzie pracowała jako specjalistka i menedżerka w działach sprzedaży i marketingu firm z branży hotelarskiej. W 2012 dołączyła do federacji KSW, w której zajmowała się rekrutacją i szkoleniem tzw. „ring girls”, czyli kobiet, które wchodzą na ring między rundami walk. Równolegle w latach 2015–2016 była menedżerką odpowiedzialną za rezerwacje w nocnych klubach w Sopocie: The Roof, Show, Dream Club, The Star. W 2016 przeprowadziła się do Poznania[6], a rok później zamieszkała w Al-Dżunie w Egipcie. W 2018 wróciła do Warszawy, a rok później odeszła z KSW.",
+      "author": "Edgar Allan Poe",
+      "nota": "The name Poe brings to mind images of murderers and madmen, premature burials, and mysterious women who return from the dead. His works have been in print since 1827 and include such literary classics as The Tell-Tale Heart, The Raven, and The Fall of the House of Usher. This versatile writer’s oeuvre includes short stories, poetry, a novel, a textbook, a book of scientific theory, and hundreds of essays and book reviews. He is widely acknowledged as the inventor of the modern detective story and an innovator in the science fiction genre, but he made his living as America’s first great literary critic and theoretician. Poe’s reputation today rests primarily on his tales of terror as well as on his haunting lyric poetry.",
       "id": 7
     },
     {
-      "author": "wwww",
-      "nota": "Brak informacji o wwww",
+      "author": "H.P. Lovecraft",
+      "nota": "Howard Phillips Lovecraft, of Providence, Rhode Island, was an American author of horror, fantasy and science fiction. Lovecraft's major inspiration and invention was cosmic horror: life is incomprehensible to human minds and the universe is fundamentally alien. Those who genuinely reason, like his protagonists, gamble with sanity. Lovecraft has developed a cult following for his Cthulhu Mythos, a series of loosely interconnected fictions featuring a pantheon of human-nullifying entities, as well as the Necronomicon, a fictional grimoire of magical rites and forbidden lore. His works were deeply pessimistic and cynical, challenging the values of the Enlightenment, Romanticism and Christianity. Lovecraft's protagonists usually achieve the mirror-opposite of traditional gnosis and mysticism by momentarily glimpsing the horror of ultimate reality. Although Lovecraft's readership was limited during his life, his reputation has grown over the decades. He is now commonly regarded as one of the most influential horror writers of the 20th Century, exerting widespread and indirect influence, and frequently compared to Edgar Allan Poe.",
       "id": 8
     },
     {
-      "author": "Peter V. Brett ",
-      "nota": "amerykański pisarz fantasy. Autor cyklu demonicznego, który rozpoczął wydanym w 2008 roku tomem Malowany człowiek. Od dzieciństwa był fanem fantastyki, komiksów i gier fabularnych. W 1995 roku ukończył literaturę angielską i historię sztuki na Uniwersytecie Buffalo",
+      "author": "Carl Sagan",
+      "nota": "In 1934, scientist Carl Sagan was born in Brooklyn, N.Y. After earning bachelor and master's degrees at Cornell, Sagan earned a double doctorate at the University of Chicago in 1960. He became professor of astronomy and space science and director of the Laboratory for Planetary Studies at Cornell University, and co-founder of the Planetary Society. A great popularizer of science, Sagan produced the PBS series, Cosmos, which was Emmy and Peabody award-winning, and was watched by 500 million people in 60 countries. A book of the same title came out in 1980, and was on The New York Times bestseller list for 7 weeks. Sagan was author, co-author or editor of 20 books, including The Dragons of Eden (1977), which won a Pulitzer, Pale Blue Dot (1995) and The Demon-Haunted World: Science As a Candle in the Dark (1996), his hardest-hitting on religion. ",
       "id": 9
     },
     {
-      "author": "Stanisław Lem",
-      "nota": "(ur. 12 lub 13 września 1921 we Lwowie, zm. 27 marca 2006 w Krakowie[2]) – polski pisarz gatunku hard science fiction, filozof, futurolog oraz krytyk.\n\nJego debiutem książkowym była wydana w 1951 roku powieść Astronauci. Kolejne powieści fantastycznonaukowe jego autorstwa to: Obłok Magellana (1955), Eden (1959), Pamiętnik znaleziony w wannie (1961), Powrót z gwiazd (1961), Solaris (1961), Niezwyciężony (1964), Głos Pana (1968), Wizja lokalna (1982), Fiasko (1987) i Pokój na Ziemi (1987). Był również autorem trylogii Czas nieutracony (1955) oraz cykli opowiadań fantastycznonaukowych: Dzienniki gwiazdowe (1957), Księga robotów (1961), Bajki robotów (1964), Cyberiada (1965), Opowieści o pilocie Pirxie (1968). Napisał recenzje nieistniejących książek (Doskonała próżnia, 1971), a także wstępy do nieistniejących dzieł (Wielkość urojona, 1973). Jest autorem zbiorów esejów, felietonów i publicystyki literackiej, w tym: Wejście na orbitę (1962), Summa technologiae (1964), Filozofia przypadku (1968), Fantastyka i futurologia (1970), Rozprawy i szkice (1975).",
+      "author": "Geoffrey Chaucer",
+      "nota": "Geoffrey Chaucer (c. 1343 – October 25, 1400?) was an English author, poet, philosopher, bureaucrat, courtier and diplomat. Although he wrote many works, he is best remembered for his unfinished frame narrative The Canterbury Tales. Sometimes called the father of English literature, Chaucer is credited by some scholars as being the first author to demonstrate the artistic legitimacy of the vernacular English language, rather than French or Latin.",
       "id": 10
     },
     {
-      "author": "Zbigniew Herbert",
-      "nota": " (ur. 29 października 1924 we Lwowie, zm. 28 lipca 1998 w Warszawie) – polski poeta, eseista, dramaturg, twórca cyklu poetyckiego „Pan Cogito”, autor słuchowisk; pośmiertnie odznaczony Orderem Orła Białego. Z wykształcenia ekonomista, prawnik i filozof.",
+      "author": "Dante Alighieri",
+      "nota": "Dante Alighieri, or simply Dante (May 14/June 13 1265 – September 13/14, 1321), is one of the greatest poets in the Italian language; with the comic story-teller Boccaccio and the poet Petrarch, he forms the classic trio of Italian authors. Dante Alighieri was born in the city-state Florence in 1265. He first saw the woman, or rather the child, who was to become the poetic love of his life when he was almost nine years old and she was some months younger. In fact, Beatrice married another man, Simone di' Bardi, and died when Dante was 25, so their relationship existed almost entirely in Dante's imagination, but she nonetheless plays an extremely important role in his poetry. Dante attributed all the heavenly virtues to her soul and imagined, in his masterpiece The Divine Comedy, that she was his guardian angel who alternately berated and encouraged him on his search for salvation.",
       "id": 11
     }
   ]

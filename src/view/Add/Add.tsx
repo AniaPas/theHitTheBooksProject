@@ -274,6 +274,16 @@ const Add: FC = () => {
             variant='contained'
             color='secondary'
             className={styles.button}
+            sx={{
+              backgroundColor: "#ffc107",
+              boxShadow: "0 0 0",
+              fontWeight: 600,
+              transition: "all 0.45s",
+              "&:hover": {
+                backgroundColor: "transparent",
+                boxShadow: "0 0 0",
+              },
+            }}
             onClick={(event) => submitBook(event)}
           >
             Save
