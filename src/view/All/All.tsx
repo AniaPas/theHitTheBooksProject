@@ -4,20 +4,18 @@ import { GlobalState } from "../../Store/GlobalStore";
 import { useNavigate } from "react-router-dom";
 import { CardComponentBook } from "../../components/CardComponentBook/CardComponentBook";
 
-// material ui
+// mui
 import { Grid, Button, Alert, Snackbar } from "@mui/material";
 
 export const All: FC = () => {
-  const global = useContext(GlobalState); // 1 wszystko puste
+  const global = useContext(GlobalState);
   const navigate = useNavigate();
   const getAllBooks = async () => {
     try {
       const books = await getBooks();
       console.log(books);
       await global.globalGetBooks(books.data);
-    } catch {
-      // obsługujemy error
-    }
+    } catch {}
   };
 
   const getAllAuthors = async () => {
@@ -26,7 +24,7 @@ export const All: FC = () => {
   };
 
   useEffect(() => {
-    getAllBooks(); // 3 akcja pobrania danych z BE
+    getAllBooks();
     getAllAuthors();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
