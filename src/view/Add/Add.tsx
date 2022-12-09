@@ -26,7 +26,7 @@ import { useNavigate } from "react-router-dom";
 import { BookInterface, GlobalState } from "../../Store/GlobalStore";
 import Modal from "@mui/material/Modal";
 import { debounce } from "lodash";
-// import _ from 'lodash' // czasmi importują to w ten sposób używa siepo tem to tak _.debounce()
+//eslint-disable-next-line
 interface Payload {
   author: string;
   title: string;
