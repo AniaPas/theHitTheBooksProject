@@ -63,6 +63,7 @@ const Add: FC = () => {
   };
   useEffect(() => {
     getAllAuthors();
+    //eslint-disable-next-line
   }, []);
 
   const isObjComplete = (obj: BookInterface): boolean => {
@@ -101,7 +102,7 @@ const Add: FC = () => {
 
       const isValid = isObjComplete(payload);
       setBookInvalid(isValid);
-      // setBookInvalid
+
       if (isValid) {
         addNewBook(payload)
           .then((respons) => {
@@ -123,7 +124,6 @@ const Add: FC = () => {
             navigate("/all");
           });
       } else {
-        ///
         setBookInvalid(isValid);
       }
     }
