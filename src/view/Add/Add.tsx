@@ -46,36 +46,27 @@ const Add: FC = () => {
   );
 
   const maxDate = dayjs(date);
-  // isBookInvalid useState ustalon dla spawdzania czy wszytkie el. z formularza
-  // są wypełnione. W przypadku prawidłowego wypełniania zminią się na false
-  // funkacja do spawdzania to isObjComplete
+
   const [isBookInvalid, setBookInvalid] = useState(true);
 
   const navigate = useNavigate();
 
   const form = useRef<HTMLCollection>();
-  // jeżli chcemy nadac typ useRef, to typujemy to co znajduje sie w
-  // kluczy current
-  // form = {current: w którym znajduje się objekt html
-  //   }
-  // żeby operować map, filter czy innymi funkcjami tablicowymi
-  // musimy form.current zamienić na tablice czyli Array.from(form.current)
 
   const createId = (uniqName: string) => {
     return `${uniqid()} ${uniqName}`;
   };
-  const global = useContext(GlobalState); // 1 wszystko puste
+  const global = useContext(GlobalState);
   const getAllAuthors = async () => {
     const authors = await getAuthors();
     await global.globalGetAuthors(authors.data);
   };
   useEffect(() => {
     getAllAuthors();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const isObjComplete = (obj: BookInterface): boolean => {
-    const objKeys = Object.keys(obj); // ts nie wierzy, że to są klucze z objektu
+    const objKeys = Object.keys(obj);
     const isComplete = objKeys.every((item: string) => {
       return obj.author !== "" && obj.years !== undefined;
     });
@@ -99,7 +90,6 @@ const Add: FC = () => {
         }
       });
 
-      // storzenie obiektu na wzór
       const payload: BookInterface = {
         author: (onlyElForm[0] as HTMLInputElement).value,
         title: (onlyElForm[1] as HTMLInputElement).value,
@@ -143,14 +133,11 @@ const Add: FC = () => {
   const iddescribe = createId("describe");
   const idImg = createId("img-url");
 
-  // MODAL
-
-  // useState do modala
   const [open, setOpen] = useState(false);
   const [newAuthor, setNewAuthor] = useState("");
   const authorName = useRef<HTMLInputElement>();
   const authorNote = useRef<HTMLInputElement>();
-  // style modala
+
   const style = {
     position: "absolute" as "absolute",
     top: "50%",
@@ -162,8 +149,6 @@ const Add: FC = () => {
     boxShadow: 24,
     p: 4,
   };
-
-  // Post autor nota
 
   const saveNota = () => {
     const payload = {
@@ -323,7 +308,5 @@ const Add: FC = () => {
     </>
   );
 };
-// dodanie unikalnych ID done
-// dodoanie id do pobieraonia z form done
 
 export default Add;
