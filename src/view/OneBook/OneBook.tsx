@@ -64,6 +64,7 @@ export const OneBook: FC = () => {
       .then((res) => {
         console.log(res);
       })
+
       .catch((e) => {
         console.error(e);
       })
@@ -89,11 +90,10 @@ export const OneBook: FC = () => {
     const desc =
       editDesc.current?.value !== "" ? editDesc.current?.value : book.desc;
     const newPayload = { ...payload, title, desc };
-    console.log(newPayload);
+
     editBook(newPayload)
       .then((res) => {
         setIsBookEdit(false);
-        console.log(res);
       })
       .catch((e) => console.log(e));
   };

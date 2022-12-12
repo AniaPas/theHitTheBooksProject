@@ -23,7 +23,6 @@ const addNewBook = (payload: BookInterface) => {
 };
 
 const addAuthor = (payload: any) => {
-  console.log(payload);
   const apiAuthors = `${API}/author`;
   return axios.post(apiAuthors, payload);
 };

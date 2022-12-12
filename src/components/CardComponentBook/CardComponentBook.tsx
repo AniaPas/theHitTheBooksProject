@@ -134,7 +134,7 @@ export const CardComponentBook: FC<PropsCardComponentBook> = ({
             },
           }}
           alt={`Book cover ${title}`}
-          image={imgScr}
+          image={imgScr || `https://via.placeholder.com/150`}
         />
 
         <CardContent>

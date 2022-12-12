@@ -13,7 +13,6 @@ export const All: FC = () => {
   const getAllBooks = async () => {
     try {
       const books = await getBooks();
-      console.log(books);
       await global.globalGetBooks(books.data);
     } catch {}
   };

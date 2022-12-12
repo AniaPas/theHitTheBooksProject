@@ -109,9 +109,7 @@ const Add: FC = () => {
         url: (onlyElForm[3] as HTMLInputElement).value,
       };
 
-      console.log(payload);
       const isValid = isObjComplete(payload);
-      console.log(isValid);
       setBookInvalid(isValid);
       // setBookInvalid
       if (isValid) {
@@ -123,7 +121,6 @@ const Add: FC = () => {
               addBook: true,
             });
             global.globalOpenSnackbarChange(true);
-            console.log(respons);
           })
           .catch((err) => {
             global.globalalertInfoSnackbarChange({
@@ -131,7 +128,6 @@ const Add: FC = () => {
               message: `Adding book ${payload.title} by ${payload.author}failure`,
             });
             global.globalOpenSnackbarChange(true);
-            console.log(err);
           })
           .finally(() => {
             navigate("/all");
@@ -180,7 +176,6 @@ const Add: FC = () => {
 
     addAuthor(payload)
       .then((res) => {
-        console.log(res);
         global.globalalertInfoSnackbarChange({
           severity: "success",
           message: `Author info ${payload.author} has been added`,
