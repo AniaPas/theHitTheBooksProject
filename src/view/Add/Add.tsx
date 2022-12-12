@@ -1,4 +1,7 @@
+//FC and hooks
 import { FormEvent, FC, useRef, useState, useContext, useEffect } from "react";
+
+//mui
 import {
   Alert,
   Box,
@@ -15,17 +18,30 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import dayjs, { Dayjs } from "dayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import Modal from "@mui/material/Modal";
+
+//styles
 import styles from "./Add.module.scss";
+
+//uniqid
 import uniqid from "uniqid";
+
+//services
 import {
   addNewBook,
   getAuthors,
   addAuthor,
 } from "../../services/books.service";
+
+//router
 import { useNavigate } from "react-router-dom";
+
+//global store
 import { BookInterface, GlobalState } from "../../Store/GlobalStore";
-import Modal from "@mui/material/Modal";
+
+//lodash
 import { debounce } from "lodash";
+
 //eslint-disable-next-line
 interface Payload {
   author: string;
