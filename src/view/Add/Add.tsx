@@ -40,7 +40,7 @@ const Add: FC = () => {
   //
 
   const date = new Date().getFullYear().toLocaleString();
-  // useState ustala datę w dataPicker na rok bieżacy
+
   const [datePickerValue, setdatePickerValue] = useState<Dayjs | null>(
     dayjs(date)
   );
