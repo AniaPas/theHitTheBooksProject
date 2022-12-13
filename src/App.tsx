@@ -17,6 +17,7 @@ import { OneBook } from "./view/OneBook/OneBook";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { Nav } from "./components/Nav/Nav";
+import { NoMatch } from "./components/NoMatch/NoMatch";
 
 // interface
 import { navElements, PathNav } from "./HelperInterface/Navigation";
@@ -70,6 +71,7 @@ const App = () => {
             <Route path='/add' element={<Add />} />
             <Route path='/' element={<Home />} />
             <Route path='/:book/:id' element={<OneBook />} />
+            <Route path='/*' element={<NoMatch />} />
           </Routes>
           <Footer />
         </div>
