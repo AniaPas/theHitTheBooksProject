@@ -19,6 +19,10 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run start-mock-be`
+
+Run this script in package.json to start the JSON-server. (https://www.npmjs.com/package/json-server)
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
